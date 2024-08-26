@@ -20,7 +20,7 @@ body{
     position: absolute;
     width: 150px;
     height: 150px;
-    background-color: #61dafb;
+    background-color: #ff0000;
     border: 2px solid #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
     backface-visibility: hidden;
@@ -61,16 +61,13 @@ body{
 
     40%{
         transform: rotateX(0deg) rotateY(90deg) scaleX(0.7) scaleY(0.7);
-        background-color:#ff6ec4;
     }
     
     60%{
         transform: rotateX(-45deg) rotateY(135deg) scaleX(1) scaleY(0.7) scaleZ(0.7);
-        background-color: #f5b23a;
     }
 
     80%{
         transform: rotateX(0deg) rotateY(180deg) scale(1);
-        background-color: #3af5c8;
     }
 }
